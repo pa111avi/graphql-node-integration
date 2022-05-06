@@ -19,10 +19,12 @@ const administerScema = new Schema({
         required : true
     },
     brand : {
-        type : Schema.Types.String
+        type : Schema.Types.String,
+        required : true
     },
     hospital : {
-        type : Schema.Types.String
+        type : Schema.Types.String,
+        required : true
     },
     age :{
         type : Schema.Types.Number
